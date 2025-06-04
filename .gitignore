@@ -1,0 +1,7 @@
+# Python leftovers
+__pycache__
+
+# Maven
+target/
+*.iml
+.idea/
