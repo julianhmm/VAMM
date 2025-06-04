@@ -6,12 +6,21 @@ A simple Spring Boot application that provides a REST API for managing contracts
 
 - Java 17+
 - Maven 3+
+- Docker & Docker Compose (optional)
 - A running MongoDB instance (default connection URL `mongodb://localhost:27017/vamm`)
 
 ## Setup & Run
 
 ```bash
 mvn spring-boot:run
+```
+
+### Docker Compose
+
+To start both MongoDB and the application run:
+
+```bash
+docker-compose up --build
 ```
 
 The API exposes endpoints for contracts and assets:
